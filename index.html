@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./archive.html">Archive</a>
+    </nav>
+    <div id="boxed">
+      <form>
+        <input
+          type="text"
+          id="work"
+          width="300px"
+          placeholder="Add to Do here"
+        />
+        <select name="level" id="level">
+          <option value="">High</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <button id="addto">Add Todo</button>
+      </form>
+    </div>
+    <table border="1px">
+      <thead>
+        <td>Name</td>
+        <td>Priority</td>
+        <td>Status</td>
+        <td>Delete</td>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="./index.js"></script>
+  </body>
+</html>

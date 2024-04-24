@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./archive.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./archive.html">Archive</a>
+    </nav>
+
+    <section>
+      <!-- priority filter -->
+      <select id="prio" onchange="priofilter()">
+        <option value="null">Select Priority</option>
+        <option value="low">low</option>
+        <option value="medium">medium</option>
+        <option value="high">high</option>
+      </select>
+      <!-- status filter -->
+      <select id="status" onchange="statusfilter()">
+        <option value="">Select Status</option>
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+      </select>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Priority</td>
+          <td>Status</td>
+          <td>Restore</td>
+          <td>Delete</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="./archive.js"></script>
+  </body>
+</html>

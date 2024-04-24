@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(to bottom, #9dd5e0, #bdc1dc);
+    height: 100vh;
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  nav {
+    background-color: #288080;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+  }
+  
+  #prio,
+  #status {
+    padding: 8px;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 17px;
+  }
+  
+  table {
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    padding: 15px 25px;
+    width: 90px;
+    border: 1px solid black;
+  }
+  thead {
+    background-color: #4caf50;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  
+  .btnstyle2 {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    width: 70px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid red;
+  }
